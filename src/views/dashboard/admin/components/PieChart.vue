@@ -52,7 +52,7 @@ export default {
         legend: {
           left: 'center',
           bottom: '10',
-          data: ['Industries', 'Technology', 'Forex', 'Gold', 'Forecasts']
+          data: ['Website', 'GoogleMap', 'Phone', 'QRCCode', 'Others']
         },
         series: [
           {
@@ -62,11 +62,11 @@ export default {
             radius: [15, 95],
             center: ['50%', '38%'],
             data: [
-              { value: 320, name: 'Industries' },
-              { value: 240, name: 'Technology' },
-              { value: 149, name: 'Forex' },
-              { value: 100, name: 'Gold' },
-              { value: 59, name: 'Forecasts' }
+              { value: 320, name: 'Website' },
+              { value: 240, name: 'GoogleMap' },
+              { value: 149, name: 'Phone' },
+              { value: 100, name: 'QRCCode' },
+              { value: 59, name: 'Others' }
             ],
             animationEasing: 'cubicInOut',
             animationDuration: 2600

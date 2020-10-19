@@ -52,3 +52,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.scrollbar-wrapper {
+  background-color: #f1bbba;
+}
+</style>

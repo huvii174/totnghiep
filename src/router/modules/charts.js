@@ -3,7 +3,7 @@
 import Layout from '@/layout'
 
 const chartsRouter = {
-  path: '/charts',
+  path: '/static',
   component: Layout,
   redirect: 'noRedirect',
   name: 'Charts',
@@ -13,22 +13,10 @@ const chartsRouter = {
   },
   children: [
     {
-      path: 'keyboard',
-      component: () => import('@/views/charts/keyboard'),
-      name: 'KeyboardChart',
-      meta: { title: 'Keyboard Chart', noCache: true }
-    },
-    {
-      path: 'line',
-      component: () => import('@/views/charts/line'),
-      name: 'LineChart',
-      meta: { title: 'Line Chart', noCache: true }
-    },
-    {
-      path: 'mix-chart',
+      path: 'static',
       component: () => import('@/views/charts/mix-chart'),
-      name: 'MixChart',
-      meta: { title: 'Mix Chart', noCache: true }
+      name: 'Static',
+      meta: { title: 'Static', noCache: true }
     }
   ]
 }
